@@ -13,7 +13,7 @@ is the equivalent of
 julia> import Dates
 julia> import DataFrames
 ```
-- **@enable_dot type** 
+- **@enable_dot type**   
   Enable using dot syntax to call a function, in a format like x.method(args...)=method(x, args...). Meant to be used for types that have functions with self has its first argument, just like in OOP languages. Beware that it's just an alternate syntax, and not an actual support for OOP.  
 ```julia-repl
 julia> struct A
