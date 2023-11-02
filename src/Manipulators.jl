@@ -1,6 +1,6 @@
 module Manipulators
 
-export @auto_import
+export @auto_import, @enable_dot
 
 """
     @auto_import [package_names...]
